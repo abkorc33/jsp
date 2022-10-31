@@ -1,0 +1,11 @@
+container: {
+    flex: 1,
+    backgroundColor: "white",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  logo: {
+    fontFamily: "BackToSchoolRegular",
+    color: "black",
+    fontSize: 50,
+    marginBottom: 18,
