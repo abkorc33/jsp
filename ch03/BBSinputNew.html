@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>BBSinputNew.html</title>
+</head>
+<body>
+	<h1>게시글 쓰기</h1>
+	<form action="BBSPostNew.jsp" method="post">
+		<h3>이름 : <input type="text" name="NAME" placeholder="이름을 입력"/></h3>
+		<h3>제목 : <input type="text" name="TITLE" placeholder="제목을 입력"/></h3>
+		<h3>내용 : </h3>
+		<textarea cols="100" rows="5" name="CONTENT" placeholder="내용을 입력"></textarea>
+		<hr>
+		<input type="reset" value="취소"/>
+		<input type="submit" value="글쓰기"/>
+	</form>
+</body>
+</html>
